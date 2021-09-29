@@ -1,5 +1,5 @@
 # onefinger
-
+一个简单的指纹识别工具，规则提取自goby并稍作修改，某个知识星球的作业
 ## Usage
 ```
 Usage: onefinger [-v] | (-t=<target>... | --tf=<targetFile>) [--threads=<threads>] [--timeout=<timeout>]
