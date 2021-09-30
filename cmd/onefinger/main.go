@@ -28,9 +28,9 @@ func main() {
 		timeout    = app.IntOpt("timeout", 20, "Request timeout")
 	)
 	// 定义版本
-	app.Version("v version", "onefinger 1.0.0")
+	app.Version("v version", "onefinger 1.0.2")
 	// 命令行描述
-	app.Spec = "[-v] | (-t=<target>... | --tf=<targetFile>) [--threads=<threads>] [--timeout=<timeout>]"
+	app.Spec = "-v | (-t=<target>... | --tf=<targetFile>) [--threads=<threads>] [--timeout=<timeout>]"
 
 	app.Action = func() {
 		targetsSlice := make([]string, 0)
