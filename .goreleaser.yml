@@ -1,5 +1,5 @@
 builds:
-    - binary: httpx
+    - binary: onefinger
       main: cmd/onefinger/main.go
       goos:
         - linux
