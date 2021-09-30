@@ -1,10 +1,11 @@
 package main
 
 import (
-	"onefinger/core"
-	"onefinger/structs"
-	"onefinger/utils"
 	"os"
+
+	"github.com/WAY29/onefinger/core"
+	"github.com/WAY29/onefinger/structs"
+	"github.com/WAY29/onefinger/utils"
 
 	cli "github.com/jawher/mow.cli"
 	_ "github.com/panjf2000/ants"

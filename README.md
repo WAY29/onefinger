@@ -13,13 +13,11 @@ Options:
       --timeout   Request timeout (default 20)
   -v, --version   Show the version and exit
 ```
+## install
+
 ## build
 ```
-go build main.go
-```
-or in windows
-```cmd
-cd releases; .\build.bat
+go build cmd/onefinger/main.go
 ```
 ## example
 ```

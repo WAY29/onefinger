@@ -4,12 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"onefinger/structs"
-	"onefinger/utils"
 	"regexp"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/WAY29/onefinger/structs"
+	"github.com/WAY29/onefinger/utils"
 
 	"github.com/asmcos/requests"
 	"github.com/panjf2000/ants"

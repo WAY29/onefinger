@@ -1,4 +1,4 @@
-module onefinger
+module github.com/WAY29/onefinger
 
 go 1.17
 

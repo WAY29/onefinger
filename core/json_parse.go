@@ -2,9 +2,10 @@ package core
 
 import (
 	"encoding/json"
-	"onefinger/asset"
-	"onefinger/structs"
-	"onefinger/utils"
+
+	"github.com/WAY29/onefinger/asset"
+	"github.com/WAY29/onefinger/structs"
+	"github.com/WAY29/onefinger/utils"
 )
 
 var FofaFingerPrints []structs.FofaFingerPrint
