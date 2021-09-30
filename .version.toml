@@ -1,12 +1,13 @@
 [main]
   serialize = "{version}-{banner}"
   tag = true
-  version = "1.0.2"
+  version = "1.1.0"
 
 [[operate]]
   location = "cmd/onefinger/main.go"
   replace = "__version__ = \"{}\""
   search = "__version__ = \"{}\""
+
 [[operate]]
   location = "cmd/onefinger/main.go"
   replace = "onefinger {}"
