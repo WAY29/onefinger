@@ -9,5 +9,5 @@
   search = "__version__ = \"{}\""
 [[operate]]
   location = "cmd/onefinger/main.go"
-  replace = "onefinger = \"{}\""
-  search = "onefinger = \"{}\""
+  replace = "onefinger {}"
+  search = "onefinger {}"
