@@ -13,8 +13,7 @@ import (
 )
 
 var (
-	app         *cli.Cli
-	__version__ = "1.0.2"
+	app *cli.Cli
 )
 
 func main() {
