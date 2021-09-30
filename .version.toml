@@ -7,3 +7,7 @@
   location = "cmd/onefinger/main.go"
   replace = "__version__ = \"{}\""
   search = "__version__ = \"{}\""
+[[operate]]
+  location = "cmd/onefinger/main.go"
+  replace = "onefinger = \"{}\""
+  search = "onefinger = \"{}\""
