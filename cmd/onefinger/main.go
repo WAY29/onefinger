@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 
 	"github.com/WAY29/onefinger/core"
@@ -54,8 +53,6 @@ func main() {
 		targetsSlice = utils.RemoveDuplicateElement(targetsSlice)
 
 		// 主要运行逻辑
-		fmt.Printf("%v\n", targetsSlice)
-		os.Exit(0)
 
 		// 最大线程数为目标数量
 		if *threads > len(targetsSlice) {
