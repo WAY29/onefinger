@@ -4,5 +4,5 @@ import (
 	_ "embed"
 )
 
-//go:embed fofa.json
+//go:embed fofa.min.json
 var FofaFingerPrintString []byte
